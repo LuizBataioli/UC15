@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 export const Container = styled.View`
   align-items: center;
   justify-content: center;
-  background-color: #042959;
+  background-color: #022340;
   height: 200px;
   width: 85%;
   border-radius: 18px;
@@ -13,7 +13,8 @@ export const CentralizarCard = styled.View`
   padding-top: 10%;
   align-items: center;
   padding-bottom: 10%;
-  background-color: #03588c;
+  background-color: #195073;
+  
 `;
 
 export const Titulo = styled.Text`
@@ -36,7 +37,7 @@ export const RedesSociais = styled.View`
   height: 100px;
   width: 30%;
   border-radius: 18px;
-  background-color: #042959;
+  background-color: #022340;
   align-items: center;
   justify-content: center;
 `;

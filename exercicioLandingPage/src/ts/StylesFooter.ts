@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const Rodape = styled.View`
-  background-color: #042959;
+  background-color: #022340;
   height: 235px;
   width: 100%;
   align-items: center;

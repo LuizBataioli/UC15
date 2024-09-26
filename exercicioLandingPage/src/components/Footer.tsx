@@ -1,5 +1,4 @@
 import { Rodape, Titulo, Conteudo } from "../ts/StylesFooter";
-import { Text } from "react-native";
 
 const Footer = () => {
   return (

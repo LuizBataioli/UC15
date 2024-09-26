@@ -1,5 +1,6 @@
 import AntDesign from "@expo/vector-icons/AntDesign";
-import { Text } from "react-native";
+import { TouchableOpacity } from "react-native";
+import * as Linking from "expo-linking";
 import {
   CentralizarCard,
   Container,
@@ -22,17 +23,35 @@ const Card = () => {
       </Container>
       <ViewSociais>
         <RedesSociais>
-          <AntDesign name="instagram" size={60} color="white" />
+          <TouchableOpacity>
+            <AntDesign name="instagram" size={60} color="white" onPress={Instagram} />
+          </TouchableOpacity>
         </RedesSociais>
         <RedesSociais>
-          <AntDesign name="linkedin-square" size={60} color="white" />
+          <TouchableOpacity>
+            <AntDesign name="linkedin-square" size={60} color="white" onPress={Linkedin}/>
+          </TouchableOpacity>
         </RedesSociais>
         <RedesSociais>
-          <AntDesign name="github" size={60} color="white" />
+          <TouchableOpacity>
+            <AntDesign name="github" size={60} color="white" onPress={GitHub}/>
+          </TouchableOpacity>
         </RedesSociais>
       </ViewSociais>
     </CentralizarCard>
   );
 };
+
+const Instagram = () => {
+Linking.openURL("https://www.instagram.com/luiz_bataioli/");
+};
+
+const Linkedin = () => {
+  Linking.openURL("https://www.linkedin.com/in/luiz-henrique-silva-bataioli/");
+}
+
+const GitHub = () => {
+  Linking.openURL("https://github.com/LuizBataioli");
+}
 
 export default Card;

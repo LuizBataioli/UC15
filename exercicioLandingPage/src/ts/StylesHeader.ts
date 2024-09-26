@@ -4,7 +4,7 @@ export const Cabecalho = styled.View`
   height: 235px;
   width: 100%;
   align-items: center;
-  background-color: #042959;
+  background-color: #022340;
   flex-direction: row;
   justify-content: space-evenly;
 `;

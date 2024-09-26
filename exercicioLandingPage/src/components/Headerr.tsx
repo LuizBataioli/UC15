@@ -1,6 +1,5 @@
 import React from "react";
 import { Cabecalho, ImagemPerfil, TextoPerfil } from "../ts/StylesHeader";
-import { Text } from "react-native";
 
 const Headerr = () => {
   return (
